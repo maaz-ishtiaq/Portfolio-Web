@@ -59,7 +59,7 @@ function Projects() {
               </div>
               <div className="flex justify-between mt-6">
                 <a
-                  href={githubLink}
+                  href='https://github.com/Maaz-Ishtiaq'
                   target="_blank"
                   className="flex items-center cursor-pointer gap-2 px-4 py-2 bg-orange-600 text-white rounded-full hover:bg-orange-700 transition-colors duration-300 max-sm:px-2 max-sm:py-1"
                 >
