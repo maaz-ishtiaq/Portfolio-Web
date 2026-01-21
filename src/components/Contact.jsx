@@ -104,7 +104,6 @@ function Contact() {
                             <input type="text" placeholder='Name' name="name" className='w-1/2 p-3 max-md:w-full  rounded-lg bg-white/5 border border-white/10 text-white focus:outline-none focus:border-orange-500' />
                             <input type="email" placeholder='Email' name="email"className='w-1/2 max-md:w-full  p-3 rounded-lg bg-white/5 border border-white/10 text-white focus:outline-none focus:border-orange-500' />
                         </div>
-                        <input type="text" placeholder='Subject' className='w-full p-3 rounded-lg bg-white/5 border border-white/10 text-white focus:outline-none focus:border-orange-500' />
                         <textarea placeholder='Message' name="message" rows="5" className='w-full p-3 rounded-lg bg-white/5 border border-white/10 text-white focus:outline-none focus:border-orange-500 resize-none'></textarea>
                         <button type="submit" className='cursor-pointer w-full p-3 rounded-lg bg-orange-600 hover:bg-orange-700 text-white font-bold transition-all duration-300'>Send Message</button>
                     <p className="text-green-700">{result} </p>
