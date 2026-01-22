@@ -48,7 +48,7 @@ function MiniProjects() {
             </div>
 
             <div className='flex gap-4'>
-              <a href='https://github.com/Maaz-Ishtiaq' target="_blank" className='flex items-center gap-1 text-gray-300 hover:text-orange-500 transition-colors text-sm'>
+              <a href='https://github.com/maaz-ishtiaq/JavaScript-Projects' target="_blank" className='flex items-center gap-1 text-gray-300 hover:text-orange-500 transition-colors text-sm'>
                 <FaGithub /> Code
               </a>
             </div>
