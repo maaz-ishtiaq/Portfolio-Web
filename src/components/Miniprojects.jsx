@@ -51,9 +51,6 @@ function MiniProjects() {
               <a href='https://github.com/Maaz-Ishtiaq' target="_blank" className='flex items-center gap-1 text-gray-300 hover:text-orange-500 transition-colors text-sm'>
                 <FaGithub /> Code
               </a>
-              <a href={liveLink} target="_blank" className='flex items-center gap-1 text-gray-300 hover:text-orange-500 transition-colors text-sm'>
-                <IoShareSocial /> Demo
-              </a>
             </div>
           </motion.div>
         ))}
