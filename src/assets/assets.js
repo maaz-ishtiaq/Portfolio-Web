@@ -154,8 +154,9 @@ export const projectsData = [
         description: 'A media search application that allows users to search for movies and TV shows. Built with React and integrated with the OMDB API to fetch media data.',
         technologies: ['React', 'JavaScript', 'OMDB API'],
         icons: [FaReact, FaJsSquare],
-        demo: '#',
-        code: '#',
+        liveLink:"https://media-search-six.vercel.app/",
+
+
     },
     {
         title:'Hospital Management System',
