@@ -35,7 +35,7 @@ function Skills() {
                 <div
                     className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-4 sm:gap-10 mt-25 '>
                     {
-                        skills.map((skill, idx) => (
+                        skills.map(({name,txclass,bgclass,Icon}, idx) => (
                             <motion.div
                                 initial={{ opacity: 0, y: 50 }}
                                 whileInView={{ opacity: 1, y: 0 }}
@@ -44,11 +44,11 @@ function Skills() {
                                 key={idx} className='bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl px-7 py-6 text-center hover:bg-white/10 transition-all duration-300 h-full flex flex-col items-center justify-center hover:scale-105 hover:-translate-y-2 '>
 
                                 <div >
-                                    <skill.icon className={`${skill.txclass} sm:text-8xl bg-transparent text-3xl mb-3`} />
+                                    <Icon className={`${txclass} sm:text-8xl bg-transparent text-3xl mb-3`} />
                                 </div>
-                                <h1 className='sm:text-xl'>{skill.name}</h1>
+                                <h1 className='sm:text-xl'>{name}</h1>
                                 <div className='w-28  sm:w-48 h-2 bg-white/10 rounded mt-3'>
-                                    <div className={`${skill.bgclass} rounded h-2`} ></div>
+                                    <div className={`${bgclass} rounded h-2`} ></div>
                                 </div>
                             </motion.div>
                         ))

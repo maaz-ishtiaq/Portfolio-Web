@@ -27,7 +27,7 @@ function MiniProjects() {
       </motion.div>
 
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-12'>
-        {miniProjectsData.map(({ title, description, technologies, githubLink, liveLink }, index) => (
+        {miniProjectsData.map(({ title, description, technologies }, index) => (
           <motion.div
             key={index}
             initial={{ opacity: 0, y: 30 }}

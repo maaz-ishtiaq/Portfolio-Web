@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 function Education() {
   return (
     <>
-      <div id="education" className='scroll-mt-20 py-20 w-full bg-linear-to-r from-[#101010] via-[#171515] to-[#242424] '>
+      <div id="education" className='scroll-mt-20 mt-20 py-20 w-full bg-linear-to-r from-[#101010] via-[#171515] to-[#242424] '>
         {/* text */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}

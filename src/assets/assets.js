@@ -24,61 +24,61 @@ export const assets = {
 export const skills = [
     {
         name: 'HTML',
-        icon: FaHtml5,
+        Icon: FaHtml5,
         txclass: "text-orange-600",
         bgclass: "bg-orange-600 w-[96%]"
     },
     {
         name: 'CSS',
-        icon: FaCss3Alt,
+        Icon: FaCss3Alt,
         txclass: "text-blue-600",
         bgclass: "bg-blue-600 w-[87%]"
     },
     {
         name: 'JavaScript',
-        icon: FaJsSquare,
+        Icon: FaJsSquare,
         txclass: "text-yellow-500",
         bgclass: "bg-yellow-500 w-[90%]"
     },
     {
         name: 'React',
-        icon: FaReact,
+        Icon: FaReact,
         txclass: "text-blue-400",
         bgclass: "bg-blue-400 w-[80%]"
     },
     {
         name: 'Redux',
-        icon: SiRedux,
+        Icon: SiRedux,
         txclass: "text-purple-600",
         bgclass: "bg-purple-600 w-[70%]"
     },
     {
         name: 'Tailwind CSS',
-        icon: RiTailwindCssFill,
+        Icon: RiTailwindCssFill,
         txclass: "text-cyan-400",
         bgclass: "bg-cyan-400 w-[94%]"
     },
     {
         name: 'Bootstrap',
-        icon: FaBootstrap,
+        Icon: FaBootstrap,
         txclass: "text-purple-700",
         bgclass: "bg-purple-700 w-[90%]"
     },
     {
         name: 'Git',
-        icon: FaGitAlt,
+        Icon: FaGitAlt,
         txclass: "text-orange-600",
         bgclass: "bg-orange-600 w-[70%]"
     },
     {
         name: 'GitHub',
-        icon: FaGithubSquare,
+        Icon: FaGithubSquare,
         txclass: "text-gray-100",
         bgclass: "bg-gray-100 w-[85%]"
     },
     {
         name: 'C++',
-        icon: PiFileCpp,
+        Icon: PiFileCpp,
         txclass: "text-blue-600",
         bgclass: "bg-blue-600 w-[75%]"
 
@@ -164,7 +164,7 @@ export const projectsData = [
         description: 'A comprehensive hospital management system designed to streamline administrative tasks, patient records, and appointment scheduling. Built using C++ for robust performance.',
         technologies: ['C++', 'OOP Concepts'],
         icons: [PiFileCpp],
-                liveLink:"https://media-search-six.vercel.app/",
+        liveLink:"https://media-search-six.vercel.app/",
 
     },{
         title:'Bank Management System',
@@ -182,63 +182,54 @@ export const miniProjectsData = [
         title: "Calculator",
         description: "A fully functional calculator capable of performing basic arithmetic operations.",
         technologies: ["HTML", "CSS", "JavaScript"],
-        githubLink: "#",
-        liveLink: "#"
+
     },
     {
         title: "Password Generator",
         description: "A tool to generate strong, random passwords with customizable length and character types.",
         technologies: ["JavaScript", "CSS"],
-        githubLink: "#",
-        liveLink: "#"
+
     },
     {
         title:'Login form',
         description: "A login form with validation to ensure correct user input.",
         technologies: ["HTML", "CSS", "JavaScript"],
-        githubLink: "#",
-        liveLink: "#"
+  
     },
     {
         title: 'QR Code Generator',
         description: 'An application that generates QR codes for any given text or URL.',
         technologies: ['JavaScript', 'HTML', 'CSS','API'],
-        githubLink: '#',
-        liveLink: '#'
+
     },
     {
         title: 'Toast Notification',
         description: 'A simple toast notification system to display brief messages to users.',
         technologies: ['JavaScript', 'CSS', 'HTML'],
-        githubLink: '#',
-        liveLink: '#'
+
     },
     {
         title:'Random Color Generator',
         description: 'An app that generates random colors and displays their HEX values.',
         technologies: ['JavaScript', 'HTML', 'CSS'],
-        githubLink: '#',
-        liveLink: '#'
+        
     },
     {
         title:'Pop-up Modal',
         description: 'A pop-up modal for displaying content or alerts.',
         technologies: ['HTML', 'CSS', 'JavaScript'],
-        githubLink: '#',
-        liveLink: '#'
+       
     },
     {
         title:'Image Slider',
         description: 'An image slider/carousel to showcase multiple images in a slideshow format.',
         technologies: ['JavaScript', 'HTML', 'CSS'],
-        githubLink: '#',
-        liveLink: '#'
+     
     },
     {
         title:'Todo List',
         description: 'A simple todo list application to manage daily tasks.',
         technologies: ['HTML', 'CSS', 'JavaScript'],
-        githubLink: '#',
-        liveLink: '#'
+     
     }
 ];
