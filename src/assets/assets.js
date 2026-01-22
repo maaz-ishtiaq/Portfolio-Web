@@ -125,7 +125,7 @@ export const projectsData = [
         icons: [FaReact, FaCss3Alt],
         image: newsly,
         demo: '#',
-        code: '#',
+        livelink:"https://newsly.vercel.app/",
     },
     {
         title: 'Currency Converter',
@@ -135,7 +135,7 @@ export const projectsData = [
         technologies: ['React', 'JavaScript', 'Exchange Rate API'],
         icons: [FaReact, FaJsSquare],
         demo: '#',
-        code: '#',
+        livelink:"https://currency-converter-ten-green.vercel.app/",
     },
     {
         title: 'Todo List',
