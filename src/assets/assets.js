@@ -124,7 +124,7 @@ export const projectsData = [
         technologies: ['React', 'CSS', 'News API'],
         icons: [FaReact, FaCss3Alt],
         image: newsly,
-        demo: '#',
+        githubLink:"https://github.com/maaz-ishtiaq/News-Website",
         liveLink:"https://newsly.vercel.app/",
     },
     {
@@ -134,18 +134,16 @@ export const projectsData = [
         description: 'A user-friendly currency converter application that allows users to convert amounts between different currencies using real-time exchange rates. Built with React and integrated with a currency exchange API.',
         technologies: ['React', 'JavaScript', 'Exchange Rate API'],
         icons: [FaReact, FaJsSquare],
-        demo: '#',
+        githubLink:"https://github.com/maaz-ishtiaq/currency-converter",
         liveLink:"https://currency-converter-ten-green.vercel.app/",
     },
     {
         title: 'Todo List',
-
         image: to,
-
         description: 'A simple and intuitive todo list application to help users manage their tasks efficiently. Features include adding, deleting, and marking tasks as complete.',
         technologies: ['React', 'Redux', 'CSS'],
         icons: [FaReact, SiRedux, FaCss3Alt],
-        demo: '#',
+        githubLink:"https://github.com/maaz-ishtiaq/Todo-List",
         code: '#',
     },
     {
@@ -155,6 +153,8 @@ export const projectsData = [
         technologies: ['React', 'JavaScript', 'OMDB API'],
         icons: [FaReact, FaJsSquare],
         liveLink:"https://media-search-six.vercel.app/",
+        githubLink:"https://github.com/maaz-ishtiaq/Media-Search-App",
+
 
 
     },
@@ -164,8 +164,8 @@ export const projectsData = [
         description: 'A comprehensive hospital management system designed to streamline administrative tasks, patient records, and appointment scheduling. Built using C++ for robust performance.',
         technologies: ['C++', 'OOP Concepts'],
         icons: [PiFileCpp],
-        githubLink: '#',
-        liveLink: '#'
+                liveLink:"https://media-search-six.vercel.app/",
+
     },{
         title:'Bank Management System',
         image: hospital,
