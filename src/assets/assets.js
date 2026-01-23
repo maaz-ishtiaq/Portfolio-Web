@@ -164,7 +164,9 @@ export const projectsData = [
         description: 'A comprehensive hospital management system designed to streamline administrative tasks, patient records, and appointment scheduling. Built using C++ for robust performance.',
         technologies: ['C++', 'OOP Concepts'],
         icons: [PiFileCpp],
-        liveLink:"https://media-search-six.vercel.app/",
+        liveLink:"https://github.com/maaz-ishtiaq/Hospital-Management-System",
+        githubLink:"https://github.com/maaz-ishtiaq/Hospital-Management-System"
+
 
     },{
         title:'Bank Management System',
@@ -172,8 +174,8 @@ export const projectsData = [
         description: 'A console-based bank management system developed in C++ to handle customer accounts, transactions, and other banking operations.',
         technologies: ['C++', 'Data Structures'],
         icons: [PiFileCpp],
-        githubLink: '#',
-        liveLink: '#'
+        liveLink:"https://github.com/maaz-ishtiaq/Bank-System",
+        githubLink:"https://github.com/maaz-ishtiaq/Bank-System"
     }
 ]
 
