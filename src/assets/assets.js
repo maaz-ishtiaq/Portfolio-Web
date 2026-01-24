@@ -144,7 +144,7 @@ export const projectsData = [
         technologies: ['React', 'Redux', 'CSS'],
         icons: [FaReact, SiRedux, FaCss3Alt],
         githubLink:"https://github.com/maaz-ishtiaq/Todo-List",
-        code: '#',
+        liveLink:"https://todos-list-delta-rosy.vercel.app/"
     },
     {
         title: 'Media Search App',
