@@ -125,7 +125,7 @@ export const projectsData = [
         icons: [FaReact, FaCss3Alt],
         image: newsly,
         githubLink:"https://github.com/maaz-ishtiaq/News-Website",
-        liveLink:"https://newsly.vercel.app/",
+        liveLink:"https://news-website-two-gilt.vercel.app/",
     },
     {
         title: 'Currency Converter',
