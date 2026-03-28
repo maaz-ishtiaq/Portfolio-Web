@@ -13,12 +13,14 @@ import Ehsaas from './ehsaas.png'
 import muaaz from './muaaz.png';
 import mshs from './mshs.png'
 import hospital from './hospital.png'
+import cv from './maaz ishtiaq.pdf'
 
 export const assets = {
     muaaz,
     Picture,
     mshs,
-    Ehsaas
+    Ehsaas,
+    cv
 }
 
 export const skills = [

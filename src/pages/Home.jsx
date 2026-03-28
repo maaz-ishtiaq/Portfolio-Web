@@ -11,6 +11,8 @@ import Button from '../components/Button'
 function Home() {
   return (
     <>
+    <div className=' scroll-mt-20 bg-linear-to-r from-[#101010] via-[#171515] to-[#242424]'
+    >
      <Navbar/>
      <Hero/>
      <Skills/>
@@ -19,6 +21,7 @@ function Home() {
      <Button/>
      <Contact/>
      <Footer/>
+     </div>
     </>
    
 

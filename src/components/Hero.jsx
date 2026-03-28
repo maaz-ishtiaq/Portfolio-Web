@@ -36,6 +36,16 @@ function Hero() {
         return () => clearTimeout(timer)
     }, [text, isDeleting, loopNum, typingSpeed])
 
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = assets.cv;
+        link.open = 'Maaz_Ishtiaq_CV.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        window.open(assets.cv, '_blank');
+    };
+
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -89,15 +99,11 @@ function Hero() {
                         </button>
                     </div>
 
-                    <button className='bg-[#FF5F00] shadow-2xl shadow-amber-600 text-white px-6 py-3 cursor-pointer active:scale-95 rounded-full text-lg font-semibold mt-8 hover:bg-orange-600 transition-colors duration-300'>
+                    <button onClick={handleDownload} className='bg-[#FF5F00] shadow-2xl shadow-amber-600 text-white px-6 py-3 cursor-pointer active:scale-95 rounded-full text-lg font-semibold mt-8 hover:bg-orange-600 transition-colors duration-300'>
                         Download CV
                     </button>
 
                 </div>
-
-
-
-
                 <div className='relative right-0'>
                     <img src={assets.muaaz} alt="Maaz Ishtiaq" className='w-62.5 h-62.5 md:w-125 md:h-125 hover:scale-101 rounded-full object-cover mt-10 md:m-4 shadow-xl shadow-orange-500/30' />
                 </div>

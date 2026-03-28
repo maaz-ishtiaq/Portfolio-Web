@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 const Footer = () => {
   const text = '</>'
 
@@ -16,10 +17,11 @@ const Footer = () => {
         <div className="w-10 h-10 bg-linear-to-r from-orange-500 to-orange-600 bg-size-[200%_200%] animate-spin animate-gradient text-center duration-600 font-bold text-lg rounded-full flex items-center justify-center">
           {text}
         </div>
-        <a href="#" className='text-white '> <span className='sm:text-2xl mt-1 font-bold'>Maaz </span>
+        <Link to = "/" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" 
+ className='text-white  '> <span className='sm:text-2xl mt-1 font-bold'>Maaz </span>
           <span className='sm:text-2xl mt-1 font-bold'>Ishtiaq</span>
           <p className='text-[12px] sm:text-[15px] font-light text-gray-400 '>Frontend Developer</p>
-        </a>
+        </Link>
       </div>
 
 
