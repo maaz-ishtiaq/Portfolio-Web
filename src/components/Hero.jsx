@@ -37,13 +37,7 @@ function Hero() {
     }, [text, isDeleting, loopNum, typingSpeed])
 
     const handleDownload = () => {
-        const link = document.createElement('a');
-        link.href = assets.cv;
-        link.open = 'Maaz_Ishtiaq_CV.pdf';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-        window.open(assets.cv, '_blank');
+          window.open(assets.cv, '_blank', 'noopener,noreferrer');
     };
 
     return (
@@ -64,7 +58,7 @@ function Hero() {
                     <p className='text-gray-400 text-lg max-w-xl mt-4'>
                         A passionate Frontend Developer with a knack for creating engaging and user-friendly web experiences. I specialize in building responsive and dynamic interfaces using modern web technologies.
                     </p>
-                    <div className="font-light max-md:justify-center text-4xl mt-5 flex gap-7">
+                    <div className="font-light max-md:justify-center text-4xl mt-5 mb-10 flex gap-7">
                         <button className="p-1 rounded-full transition cursor-pointer
                      hover:text-white hover:shadow-lg shadow-orange-500
                      active:scale-90"
@@ -99,9 +93,9 @@ function Hero() {
                         </button>
                     </div>
 
-                    <button onClick={handleDownload} className='bg-[#FF5F00] shadow-2xl shadow-amber-600 text-white px-6 py-3 cursor-pointer active:scale-95 rounded-full text-lg font-semibold mt-8 hover:bg-orange-600 transition-colors duration-300'>
+                    <a  href="/Maaz Ishtiaq.pdf"   target="_blank" rel="noopener noreferrer" className='bg-[#FF5F00] shadow-2xl shadow-amber-600 text-white px-6 py-3  cursor-pointer active:scale-95 rounded-full text-lg font-semibold  hover:bg-orange-600 transition-colors duration-300'>
                         Download CV
-                    </button>
+                    </a>
 
                 </div>
                 <div className='relative right-0'>
