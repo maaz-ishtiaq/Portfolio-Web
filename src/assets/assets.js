@@ -13,7 +13,7 @@ import Ehsaas from './ehsaas.png'
 import muaaz from './muaaz.png';
 import mshs from './mshs.png'
 import hospital from './hospital.png'
-import cv from './maaz ishtiaq.pdf'
+import cv from './Maaz Ishtiaq.pdf'
 
 export const assets = {
     muaaz,
